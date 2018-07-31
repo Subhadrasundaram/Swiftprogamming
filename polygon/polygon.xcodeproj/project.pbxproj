@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A84AD05A1C87488400E280ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84AD0591C87488400E280ED /* AppDelegate.swift */; };
+		A84AD05C1C87488400E280ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84AD05B1C87488400E280ED /* ViewController.swift */; };
+		A84AD05F1C87488400E280ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84AD05D1C87488400E280ED /* Main.storyboard */; };
+		A84AD0611C87488400E280ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84AD0601C87488400E280ED /* Assets.xcassets */; };
+		A84AD0641C87488400E280ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84AD0621C87488400E280ED /* LaunchScreen.storyboard */; };
+		A84AD06F1C87488400E280ED /* polygonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84AD06E1C87488400E280ED /* polygonTests.swift */; };
+		A84AD07A1C874A9500E280ED /* poly.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84AD0791C874A9500E280ED /* poly.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A84AD06B1C87488400E280ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A84AD04E1C87488400E280ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A84AD0551C87488400E280ED;
+			remoteInfo = polygon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A84AD0561C87488400E280ED /* polygon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = polygon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84AD0591C87488400E280ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A84AD05B1C87488400E280ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A84AD05E1C87488400E280ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A84AD0601C87488400E280ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A84AD0631C87488400E280ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A84AD0651C87488400E280ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A84AD06A1C87488400E280ED /* polygonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = polygonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84AD06E1C87488400E280ED /* polygonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = polygonTests.swift; sourceTree = "<group>"; };
+		A84AD0701C87488400E280ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A84AD0791C874A9500E280ED /* poly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = poly.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A84AD0531C87488400E280ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84AD0671C87488400E280ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A84AD04D1C87488400E280ED = {
+			isa = PBXGroup;
+			children = (
+				A84AD0581C87488400E280ED /* polygon */,
+				A84AD06D1C87488400E280ED /* polygonTests */,
+				A84AD0571C87488400E280ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A84AD0571C87488400E280ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A84AD0561C87488400E280ED /* polygon.app */,
+				A84AD06A1C87488400E280ED /* polygonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A84AD0581C87488400E280ED /* polygon */ = {
+			isa = PBXGroup;
+			children = (
+				A84AD0591C87488400E280ED /* AppDelegate.swift */,
+				A84AD05B1C87488400E280ED /* ViewController.swift */,
+				A84AD0791C874A9500E280ED /* poly.swift */,
+				A84AD05D1C87488400E280ED /* Main.storyboard */,
+				A84AD0601C87488400E280ED /* Assets.xcassets */,
+				A84AD0621C87488400E280ED /* LaunchScreen.storyboard */,
+				A84AD0651C87488400E280ED /* Info.plist */,
+			);
+			path = polygon;
+			sourceTree = "<group>";
+		};
+		A84AD06D1C87488400E280ED /* polygonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A84AD06E1C87488400E280ED /* polygonTests.swift */,
+				A84AD0701C87488400E280ED /* Info.plist */,
+			);
+			path = polygonTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A84AD0551C87488400E280ED /* polygon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84AD0731C87488400E280ED /* Build configuration list for PBXNativeTarget "polygon" */;
+			buildPhases = (
+				A84AD0521C87488400E280ED /* Sources */,
+				A84AD0531C87488400E280ED /* Frameworks */,
+				A84AD0541C87488400E280ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = polygon;
+			productName = polygon;
+			productReference = A84AD0561C87488400E280ED /* polygon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A84AD0691C87488400E280ED /* polygonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84AD0761C87488400E280ED /* Build configuration list for PBXNativeTarget "polygonTests" */;
+			buildPhases = (
+				A84AD0661C87488400E280ED /* Sources */,
+				A84AD0671C87488400E280ED /* Frameworks */,
+				A84AD0681C87488400E280ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A84AD06C1C87488400E280ED /* PBXTargetDependency */,
+			);
+			name = polygonTests;
+			productName = polygonTests;
+			productReference = A84AD06A1C87488400E280ED /* polygonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A84AD04E1C87488400E280ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Subhadra;
+				TargetAttributes = {
+					A84AD0551C87488400E280ED = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A84AD0691C87488400E280ED = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A84AD0551C87488400E280ED;
+					};
+				};
+			};
+			buildConfigurationList = A84AD0511C87488400E280ED /* Build configuration list for PBXProject "polygon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A84AD04D1C87488400E280ED;
+			productRefGroup = A84AD0571C87488400E280ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A84AD0551C87488400E280ED /* polygon */,
+				A84AD0691C87488400E280ED /* polygonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A84AD0541C87488400E280ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84AD0641C87488400E280ED /* LaunchScreen.storyboard in Resources */,
+				A84AD0611C87488400E280ED /* Assets.xcassets in Resources */,
+				A84AD05F1C87488400E280ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84AD0681C87488400E280ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A84AD0521C87488400E280ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84AD07A1C874A9500E280ED /* poly.swift in Sources */,
+				A84AD05C1C87488400E280ED /* ViewController.swift in Sources */,
+				A84AD05A1C87488400E280ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84AD0661C87488400E280ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84AD06F1C87488400E280ED /* polygonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A84AD06C1C87488400E280ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A84AD0551C87488400E280ED /* polygon */;
+			targetProxy = A84AD06B1C87488400E280ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A84AD05D1C87488400E280ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A84AD05E1C87488400E280ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A84AD0621C87488400E280ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A84AD0631C87488400E280ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A84AD0711C87488400E280ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A84AD0721C87488400E280ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A84AD0741C87488400E280ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = polygon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = subhadra.polygon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A84AD0751C87488400E280ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = polygon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = subhadra.polygon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A84AD0771C87488400E280ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = polygonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = subhadra.polygonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/polygon.app/polygon";
+			};
+			name = Debug;
+		};
+		A84AD0781C87488400E280ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = polygonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = subhadra.polygonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/polygon.app/polygon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A84AD0511C87488400E280ED /* Build configuration list for PBXProject "polygon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84AD0711C87488400E280ED /* Debug */,
+				A84AD0721C87488400E280ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A84AD0731C87488400E280ED /* Build configuration list for PBXNativeTarget "polygon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84AD0741C87488400E280ED /* Debug */,
+				A84AD0751C87488400E280ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A84AD0761C87488400E280ED /* Build configuration list for PBXNativeTarget "polygonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84AD0771C87488400E280ED /* Debug */,
+				A84AD0781C87488400E280ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A84AD04E1C87488400E280ED /* Project object */;
+}
